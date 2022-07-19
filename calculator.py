@@ -13,22 +13,16 @@ print("3. kali   (x)")
 print("4. bagi   (/)")
 
 pilih = int(input("pilih : "))
+angka1 = int(input("angka1 : "))
+angka2 = int(input("angka2: "))
 
 if pilih == 1:
-    angka1 = int(input("angka1 : "))
-    angka2 = int(input("angka2 : "))
     function.tambah(angka1, angka2)
 elif pilih == 2:
-    angka1 = int(input("angka1 : "))
-    angka2 = int(input("angka2 : "))
     function.kurang(angka1, angka2)
 elif pilih == 3:
-    angka1 = int(input("angka1 : "))
-    angka2 = int(input("angka2 : "))
     function.kali(angka1, angka2)
 elif pilih == 4:
-    angka1 = int(input("angka1 : "))
-    angka2 = int(input("angka2 : "))
     function.bagi(angka1, angka2)
 else:
     print("input harus benar!!")
